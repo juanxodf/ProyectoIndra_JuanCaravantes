@@ -15,3 +15,49 @@ header {
     margin: 2rem auto;
     max-width: 800px;
 }
+
+.carousel-image {
+    height: 500px;
+    /* Ajusta la altura según tus necesidades */
+    object-fit: cover;
+    /* Asegura que las imágenes se ajusten y recorten si es necesario */
+}
+
+.menu-bar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-bar a:hover {
+    text-decoration: underline;
+    color: #4CAF50;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    margin: 0;
+}

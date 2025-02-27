@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d7ff8d;
+}
+
+#detalle-evento {
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+header {
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 0;
+    background-color: #333;
+}
+
+section {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 0;
+    background-color: #ffffffa2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+article h2 {
+    color: #4CAF50;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+article p {
+    margin: 0.5rem 0;
+}
+
+.menu-bar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-bar a:hover {
+    text-decoration: underline;
+    color: #4CAF50;
+}
+
+.boton-inscribirse {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
